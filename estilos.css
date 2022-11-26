@@ -1,0 +1,325 @@
+@font-face {
+    font-family: "ComicNeue";
+    font-weight: bold;
+    src: url(./assets/fonts/comic-neue/ComicNeue-Bold.ttf);
+}
+body{
+    background-color: #99E2FF;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: "ComicNeue";
+}
+
+/* HEADER */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 75px;
+    padding-left: 30px;
+    border-bottom: 2px solid lightgray;
+}
+.header-logo{
+    align-items: center;
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 70px;
+}
+.header-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.header-list-text{
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 75px;
+}
+.header-button{
+    height: 30px;
+    font-family: "ComicNeue";
+    border-radius: 10px;
+    align-items: center;
+    background-color: #80B1FF;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 70px 0 0;
+    box-shadow: 0.2rem 0.2rem #6d96d8, -0.2rem -0.2rem
+}
+
+/*VIDEO*/
+
+.video-background{
+    position: relative;
+    width:1440px;
+    background-color: #80B1FF;
+    display: block;
+    
+}
+.video-img{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.video-img-logo{
+    width: 400px;
+
+}
+.video-img-text{
+    width: 200px;
+}
+.video-button{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    margin: 0 auto;
+    width: 250px;
+    font-size: 20px;
+    padding: 10px 60px 10px 60px;
+    font-family: "ComicNeue";
+    background-color: white;
+    color: #5086DC;
+    border-radius: 10px;
+    border: 2px solid #5086DC;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: -2px 4px 0px -1px #5086DC;
+}
+
+/*REGISTRER*/
+
+.registrer{
+    background-color: #80B1FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "ComicNeue";
+}
+.registrer-text{
+    color: white;
+    padding-left: 200px;
+}
+.registrer-text-title{
+    text-shadow: 2px 0px #5086DC;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+.registrer-text-subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1px;
+}
+.registrer-form{
+    padding-right: 100px;
+}
+.registrer-form-email{
+    font-size: 15px;
+    padding: 10px 60px 10px 20px;
+    text-align: start;
+    font-family: "ComicNeue";
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid gray;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: -2px 4px 0px -1px rgb(164, 164, 164);
+}
+.registrer-form-btn{
+    font-size: 20px;
+    padding: 7px 20px 7px 20px;
+    font-family: "ComicNeue";
+    background-color: white;
+    color: #5086DC;
+    border-radius: 10px;
+    border: 2px solid #5086DC;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: -2px 4px 0px -1px #5086DC;
+}
+
+/*MAIN*/
+
+.main{
+    display: block;
+    font-family: "ComicNeue";
+}
+.main-phone{
+    justify-content: center;
+    display: flex;
+    
+}
+.phone-img img{
+    width: 400px;
+    margin-top: 100px;
+    
+}
+.phone-text{
+    margin-top: 100px;
+    width: 550px;
+
+    
+}
+.phone-text-title{
+    text-shadow: 0px 2px #5086DC;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1px;
+    width: 550px;
+}
+.phone-text-subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "ComicNeue";
+    line-height: 1.5;
+    width: 550px;
+    color:#313A71;
+}
+
+/*BOX*/
+
+.box-container{
+  margin: 100px auto;
+  max-width: 1440px;
+}
+.box{
+    position: relative;
+    margin: 0 auto;
+   
+
+}
+.box-background{
+    max-width: 1200px;
+    border-radius: 40px;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+}
+.box-img{
+    position: absolute;
+    top: 20px;
+    right: 140px;
+    height: 520px;
+}
+
+.box-text{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+.box-text-img{
+    height: 100px;
+}
+.box-text-subtitle{
+    color: white;
+    line-height: 1.5;
+    font-size: 25px;
+    font-weight: bold;
+    width: 500px;
+    text-shadow: 2px 0px #313A71;
+}
+.box-text-btn{
+    background-color: #80B1FF;
+    color: white;
+    font-size: 25px;
+    padding: 7px 50px 7px 50px;
+    font-family: "ComicNeue";
+    border-radius: 6px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    height: 50px;
+    box-shadow: -2px 4px 0px -1px #6d96d8;
+
+}
+
+.box-text-end{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 60px;
+    text-shadow: 2px 3px #000001;
+
+}
+/*NEWS*/
+
+.news{
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.news-img img{
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
+.news-articles-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.news-article{
+    width: 330px;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: white;
+    font-family: "ComicNeue";
+    padding-bottom: 20px;
+}
+.news-article-img{
+    width: 330px;
+    border-top-left-radius: 30px 30px;
+    border-top-right-radius: 30px 30px;
+}
+.news-article-text{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify start;
+    padding-left: 20px;
+    width: 300px;
+}
+.news-article-cite{
+    font-style: normal;
+    font-weight: bold;
+    text-align: justify start;
+    font-size: 18px;
+    padding-left: 20px;
+    color: gray;
+} 
+
+/*FOOTER*/
+
+footer{
+    background-color: #FFA4D4;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 0px;
+  
+    
+}
+.footer img{
+    width: 100px;
+    margin: 20px 5px 5px 5px;
+}
+.footer-text{
+    color: #FC7CC5;
+   margin: 5px 0px 0px 10px;
+   padding-bottom: 10px;
+   font-size: 20px;
+}
